@@ -1,0 +1,207 @@
+<div class="contenedor-tarjeta-filosofia invisible">
+  <h3>Nuestra Filosofía</h3>
+  <div class="tarjetas-filosofia">
+    <div class="tarjeta-filosofia">
+      <img src="https://www.swissnaturelabs.com/assets/img/blog-1.jpg" alt="" class="primer-imagen">
+      <p class="titulo-filosofia">Cuidado Del Medio Ambiente</p>
+      <p class="texto-filosofia">Contamos con certificacion PEFC para nuestro packaging</p>
+    </div>
+    <div class="tarjeta-filosofia">
+      <img src="https://www.swissnaturelabs.com/assets/img/blog-2.jpg" alt="">
+      <p class="titulo-filosofia">Reciclaje por un mundo mejor</p>
+      <p class="texto-filosofia">Te invitamos a cuidar nuestro planeta. Súmate al reciclaje.</p>
+    </div>
+    <div class="tarjeta-filosofia">
+      <img src="https://www.swissnaturelabs.com/assets/img/blog-3.jpg" alt="">
+      <p class="titulo-filosofia">Ingredientes origen natural</p>
+      <p class="texto-filosofia">La naturaleza es nuestra fuente de inspiración y la base de nuestros productos.</p>
+    </div>
+  </div>
+</div>
+
+<div class="contenedor-newsletter invisible">
+  <div class="newsletter">
+    <h3>Suscríbete a nuestro Newsletter!</h3>
+    {{!-- <p>Ingrese su mail</p>
+    <input type="email">
+    <button>Enviar</button> --}}
+    <div data-dp-form="9%2f34djQtT44ive30oZiF8g%3d%3d"></div>
+  </div>
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kyzgrGHqt1s" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="fashion-nav-footer-contact">
+  <div class="fashion-nav-footer-contact__content">
+    <div class="nav-bounds nav-bounds--contact">
+      <div class="fashion-nav-footer__brand-col header--custom-text">
+        <a class="nav-fashion-header__logo" href="/" id="logo-wrapper">
+          <span class="nav-header__title-hidden">{{name}}</span>
+          <img class="nav-header__image" src="https://iili.io/VA98mv.png" alt="{{name}}" itemprop="logo" />
+        </a>
+        {{#if logoCaption}}
+        <p class="fashion-nav-footer__logo-caption">{{{logoCaption}}}</p>
+        {{/if}}
+        <div class="fashion-nav-footer__social-media--responsive">
+          <a href="https://www.facebook.com/swissnatureuklatam" rel="noreferrer noopener" target="_blank"
+            class="header--custom-svg">
+            <img class="facebook-logo" src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/swissnaturelabs/" rel="noreferrer noopener" target="_blank"
+            class="header--custom-svg">
+            <img class="instagram-logo" src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="">
+          </a>
+          <a href="https://www.youtube.com/channel/UCXHJQoKscKM4F9_n38-nJ8w" rel="noreferrer noopener" target="_blank"
+            class="header--custom-svg">
+            <img class="youtube-logo" src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="fashion-nav-footer__categories-col header--custom-border">
+        {{!-- {{#each menu}}
+        <span class="fashion-nav-footer__category">
+          <a href="{{url}}" data-id="{{id}}" class="header--custom-text">
+            {{name}}
+          </a>
+        </span>
+        {{/each}} --}}
+        <span class="fashion-nav-footer__category">
+          <a href="/" data-id="{{id}}" class="">
+            Inicio
+          </a>
+        </span>
+        <span class="fashion-nav-footer__category">
+          <a href="/_DisplayType_G_Discount_2-100" data-id="{{id}}" class="">
+            Descuentos
+          </a>
+        </span>
+        <span class="fashion-nav-footer__category">
+          <a href="/todos-los-productos" data-id="{{id}}" class="">
+            Productos
+          </a>
+        </span>
+        <span class="fashion-nav-footer__category">
+          <a href="/quienes-somos" data-id="{{id}}" class="">
+            Quienes Somos
+          </a>
+        </span>
+        <span class="fashion-nav-footer__category">
+          <a href="/responsabilidad" data-id="{{id}}" class="">
+            Responsabilidad Social
+          </a>
+        </span>
+        <span class="fashion-nav-footer__category">
+          <a href="/beneficios" data-id="{{id}}" class="">
+            Beneficios Para Ti
+          </a>
+        </span>
+        <span class="fashion-nav-footer__category">
+          <a href="/p/contacto" data-id="{{id}}" class="">
+            Contacto
+          </a>
+        </span>
+        <span class="fashion-nav-footer__category">
+          <a href="/p/como-comprar" data-id="{{id}}" class="">
+            Preguntas Frecuentes
+          </a>
+        </span>
+      </div>
+
+      {{!-- <div class="fashion-nav-footer__pages header--custom-border">
+        <span class="fashion-nav-footer__page">
+          <a href="{{linkToHowBuy.href}}" class="header--custom-text">{{linkToHowBuy.label}}</a>
+        </span>
+      </div> --}}
+
+      <div class="fashion-nav-footer__contact-col">
+        <div class="fashion-nav-footer__social-media">
+          {{!-- {{#each socialNetworks}}
+          <a href="{{url}}" rel="noreferrer noopener" target="_blank" class="header--custom-svg">
+            {{> (concat 'icons/social_networks/' (lookup . 'name'))}}
+          </a>
+          {{/each}} --}}
+          <a href="https://www.facebook.com/swissnatureuklatam" rel="noreferrer noopener" target="_blank"
+            class="header--custom-svg">
+            <img class="facebook-logo" src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/swissnaturelabs/" rel="noreferrer noopener" target="_blank"
+            class="header--custom-svg">
+            <img class="instagram-logo" src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="">
+          </a>
+          <a href="https://www.youtube.com/channel/UCXHJQoKscKM4F9_n38-nJ8w" rel="noreferrer noopener" target="_blank"
+            class="header--custom-svg">
+            <img class="youtube-logo" src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" alt="">
+          </a>
+        </div>
+        <div class="seccion-contacto">
+          <span class="fashion-nav-footer__category">
+            <a href="tel:(22)582-4660" target="_blank" class="">
+              (22) 582-4660
+            </a>
+          </span>
+          <span class="fashion-nav-footer__category">
+            <a href="mailto:ml@swissnaturelabs.uk" target="_blank" class="">
+              ml@swissnaturelabs.uk
+            </a>
+          </span>
+          <span class="fashion-nav-footer__category">
+            <a href="https://www.google.com/maps/place/Panamericana+Nte.+7050,+Quilicura,+Regi%C3%B3n+Metropolitana,+Chile/@-33.3699963,-70.6989158,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c6ded5489ddf:0x5288be5e9e58f6fc!8m2!3d-33.3699963!4d-70.6989158"
+              target="_blank" class="">
+              <p>
+                Av. Pdte. Frei Montalva 7050<br>QUILICURA RM - (Metropolitana)
+              </p>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer role="contentinfo" class="fashion-nav-footer nav-footer header--custom-text header--custom-background">
+  <div class="nav-bounds nav-bounds--copyright">
+    <div class="nav-footer-primaryinfo">
+      <small class="nav-footer-copyright">
+        <div class="nav-footer-disclaimer">
+          <div>
+            <div class="nav-footer-about">
+              <a href="{{{linkToMShopsLandingPage}}}" target="_blank"
+                class="header--custom-text">{{i18n.powered_by}}</a>
+              {{#if linkToLegalNotices}}
+              <a href="{{linkToLegalNotices.href}}" class="header--custom-text">{{linkToLegalNotices.label}}</a>
+              {{/if}}
+              {{#if linkToLGPD}}
+              <a href="{{linkToLGPD.href}}" class="header--custom-text">{{linkToLGPD.label}}</a>
+              {{/if}}
+            </div>
+            {{#if showBusinessData}}
+            {{#with fiscalData}}
+            <div class="nav-footer-fiscal-data">
+              <p class="nav-footer-fiscal-data__name">{{legal_name}}</p>
+              <p class="nav-footer-fiscal-data__id">{{legal_doc}}</p>
+            </div>
+            {{/with}}
+            {{/if}}
+          </div>
+          {{!-- {{#if showQrData}}
+          {{#with fiscalData}}
+          <a href={{qr_link}} target="_F960AFIPInfo">
+            <img class="nav-footer-afip-img" src={{qr_img}} alt="Data fiscal" />
+          </a>
+          {{/with}}
+          {{/if}} --}}
+        </div>
+      </small>
+    </div>
+  </div>
+</footer>
+<div class="barra-inferior-footer">
+  <div class="contenido-barra-inferior-footer">
+    <p> &copy; Swiss Nature Labs | Todos los Derechos Reservados | Swiss Nature Labs es una marca registrada. | <a
+        href="https://www.swissnaturelabs.com/cl.terminos.php" target="_blank">Términos, condiciones y políticas de
+        privacidad</a></p>
+  </div>
+</div>
