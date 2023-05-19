@@ -69,3 +69,4 @@ nosotrosFlecha_mobile.addEventListener('click', function(){
     nosotrosSub_mobile.classList.toggle("visible");
     nosotrosSub_mobile.classList.toggle("invisible");
 })
+

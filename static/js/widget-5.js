@@ -8,3 +8,4 @@ if (URLactual == "/") {
     pautas.classList.toggle("invisible");
     newsletter.classList.toggle("invisible");
 }
+

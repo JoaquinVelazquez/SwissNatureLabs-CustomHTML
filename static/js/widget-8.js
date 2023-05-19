@@ -23,3 +23,5 @@ if (URLactual == "/todos-los-productos") {
         throw new Error("Error controlado");
     }
 }
+
+

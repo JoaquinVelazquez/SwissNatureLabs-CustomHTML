@@ -776,7 +776,6 @@ input[data-js=attributes-toggle]:checked+.toggle-menu span:nth-child(2) {
 
 .nav-footer-about p {
     margin: 0 !important;
-    order: 1
 }
 
 @media screen and (min-width: 768px) {
